@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(background.png);
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+h1{
+    font-size: 170%;
+    color: rgb(255, 255, 255);
+}
+/* .nav-box-link{
+    color: beige;
+    cursor: url("cursor.png"), default ;
+} */
+.nav-box-link {
+ cursor: pointer !important;
+ transition: .4s;
+  }
+  .nav-box-link:hover{
+    color: palegoldenrod;
+  }
+
+h3{
+    font-size: 110%;
+    text-align: left;
+    color: black;
+}
+
+   
+.imgs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+
+}
+.img{
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+p{
+    font-size: 140%;
+}
+.h2{
+    text-align: center;
+    color: white;
+    font-family: 'Sono', sans-serif;
+}
+
+
+footer {
+    display: flex;
+    background-color: rgb(196, 41, 183);
+    color: rgb(0, 0, 0);
+    clear: both;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 10px 30px -10px rgb(62, 62, 62);
+    padding: 20px;
+
+}
+.title{
+margin: 10px 0;
+font-size: 20px;
+}
+.text{
+    font-size: 15px;
+    font-style: italic;
+}
+.box{
+    margin: 0 50px;
+    
+}
+.insta{
+    justify-content: left;
+    height: 60px;
+    width: 70px;
+}
+
+
+.button{
+    width: 70px;
+    height: 60px;
+    justify-content: left;
+    text-align: left;
+    background: none;
+    
+    
+
+}
+
+
+.fa-instagram{
+    text-decoration: none;
+    font-size: 50px;
+    color: palevioletred;
+    transition: .4s;
+    
+
+
+}
+.fa-instagram:hover{
+    color: rgba(10, 157, 224, 0.507);
+    
+}
+.instagram-link{
+    display: block;
+    width: max-content;
+}
+.price{
+    color: yellowgreen;
+    display: none;
+}
+.show{
+    display: block;
+}
+
